@@ -1,4 +1,4 @@
-# Phoebe
+# Phoebe [![Build Status](https://travis-ci.org/mathewmariani/phoebe.svg?branch=master)](https://travis-ci.org/mathewmariani/phoebe)
 A free, minimalistic, text-based, Jekyll theme.
 
 ## Features:
