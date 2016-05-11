@@ -1,0 +1,17 @@
+@mixin button_variant($color, $background, $border) {
+  transition: all .5s;
+  color: $color;
+  background-color: $background;
+  border-color: $border;
+
+  &:hover, &focus {
+    color: #fff;
+    background-color: $color;
+  }
+
+  &:active {
+    color: #fff;
+    background-color: darken($color, 10%);
+    border-color: darken($border, 25%);
+  }
+}

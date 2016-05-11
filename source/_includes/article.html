@@ -1,0 +1,13 @@
+<article>
+    <div class="article-title">
+      <h4 href="{{ post.url | prepend: site.baseurl }}" title="Permalink to: {{ post.title }}">
+        {{ post.title }}
+        <br />
+        <small class="muted">{{ post.date | date: "%b %-d, %Y" }}</small>
+      </h4>
+    </div>
+
+    <p>{{ post.content | strip_html | truncatewords: 30 }}
+      <a href="{{ post.url | prepend: site.baseurl }}" title="Permalink to: {{ post.title }}">Read more</a>
+    </p>
+</article>

@@ -1,0 +1,46 @@
+.social {
+  text-decoration: none;
+  cursor: pointer;
+  color: $gray-light;
+
+  font-size: 1.2em;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+ul.social {
+  text-align: center;
+}
+
+a.social {
+  text-decoration: none;
+}
+
+.social-facebook {
+  @include social-variant($facebook_color);
+}
+
+.social-flickr {
+  @include social-variant($flickr_color);
+}
+
+.social-github {
+  @include social-variant($github_color);
+}
+
+.social-instagram {
+  @include social-variant($instagram_color);
+}
+
+.social-linkedin {
+  @include social-variant($linkedin_color);
+}
+
+.social-twitter {
+  @include social-variant($twitter_color);
+}
+
+.social-youtube {
+  @include social-variant($youtube_color);
+}

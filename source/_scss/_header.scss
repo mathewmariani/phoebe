@@ -1,0 +1,18 @@
+header {
+  margin-top: $line-height-computed;
+  margin-bottom: $line-height-computed;
+
+  border: 0;
+  border-bottom: 2px solid #DFDFDF;
+}
+
+.header-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: inherit;
+}
+
+.header-body {
+  padding: 15px;
+  color: inherit;
+}

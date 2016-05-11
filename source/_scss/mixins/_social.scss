@@ -1,0 +1,12 @@
+@mixin social_variant($color) {
+  transition: all .5s;
+
+  &:hover, &focus {
+    color: $color;
+  }
+
+  &:active {
+    color: $color;
+    background-color: darken($color, 10%);
+  }
+}

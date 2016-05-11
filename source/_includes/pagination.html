@@ -1,0 +1,21 @@
+<nav class="pagination" role="pagination">
+  <div class="grid">
+    <div class="cell cell-grow text-left">
+      {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+        <a href="{{ site.baseurl }}/">Newer</a>
+        {% else %}
+        <a href="{{ site.baseurl }}/page/{{ paginator.previous_page }}/">Newer</a>
+        {% endif %}
+      {% endif %}
+    </div>
+    <div class="cell cell-grow text-center">
+      <small class="muted">Page {{paginator.page}} / {{paginator.total_pages}}</small>
+    </div>
+    <div class="cell cell-grow text-right">
+      {% if paginator.next_page %}
+        <a href="{{ site.baseurl }}/page/{{ paginator.next_page }}/">Older</a>
+      {% endif %}
+    </div>
+  </div>
+</nav>

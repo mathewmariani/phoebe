@@ -1,0 +1,12 @@
+---
+layout: default
+title: Home
+---
+
+<section>
+  {% for post in paginator.posts %}
+    {% include article.html %}
+  {% endfor %}
+
+  {% include pagination.html %}
+</section>

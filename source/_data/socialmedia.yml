@@ -1,0 +1,24 @@
+# social media
+- name: github
+  icon: github
+  link: http://github.com/
+
+- name: facebook
+  icon: facebook
+  link: http://facebook.com/
+
+- name: twitter
+  icon: twitter
+  link: http://twitter.com/
+
+- name: instagram
+  icon: instagram
+  link: http://instagram.com/
+
+- name: linkedin
+  icon: linkedin
+  link: http://linkedin.com/
+
+- name: youtube
+  icon: youtube-play
+  link: http:/youtube.com/

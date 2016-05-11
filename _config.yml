@@ -1,0 +1,40 @@
+# gems
+gems: [jekyll-paginate]
+
+# site settings
+title: Phoebe
+description: A free Jekyll theme
+email: your-email@domain.com
+
+baseurl: ""
+url: http://yourdomain.com
+repository: https://github.com/mathewmariani/phoebe
+#google_analytics: analytics-code
+
+permalink: pretty
+
+paginate: 2
+paginate_path: /page/:num
+comments: false
+
+source: source
+destination: _site
+sass:
+  sass_dir: _scss
+  style: compressed
+
+# defaults
+defaults:
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: posts   # limit to posts
+    values:
+      is_post: true # automatically set is_post=true for all posts
+
+# exclude list
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .travis.yml

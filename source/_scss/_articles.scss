@@ -1,0 +1,12 @@
+.article-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: inherit;
+
+  font-weight: bold;
+}
+
+.article-body {
+  margin-top: $line-height-computed;
+  margin-bottom: $line-height-computed;
+}

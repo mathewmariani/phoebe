@@ -1,0 +1,24 @@
+<header>
+  <div class="header-title text-center">
+    {% if page.is_post %}
+    <div class="grid header-title">
+      <div class="cell cell-shrink cell-center">
+        <a href="{{ "/" | prepend: site.baseurl }}">
+          <img class="img-circle" alt="64x64" src="http://dummyimage.com/64x64/eeeeee/aaaaaa.png" style="width: 64; height: 64"/>
+        </a>
+      </div>
+      <div class="cell text-left">
+        <h3>{{ site.title }}<br /><small>{{ site.description }}</small></h3>
+      </div>
+    </div>
+    {% else %}
+    <img class="img-circle" alt="128x128" src="http://dummyimage.com/128x128/eeeeee/aaaaaa.png" style="width: 128; height: 128"/>
+    <h1>
+      {{ site.title }}<br /><small>{{ site.description }}</small>
+    </h1>
+    <p>
+      <a href="{{ site.repository }}" class="btn btn-primary">Download</a>
+    </p>
+    {% endif %}
+  </div>
+</header>

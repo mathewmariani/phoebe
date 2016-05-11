@@ -1,0 +1,25 @@
+<html>
+<head>
+  {% include meta.html %}
+</head>
+<body>
+  <main class="container">
+    {% include header.html %}
+
+    <article>
+      <div class="article-title">
+        <h1>
+          {{ page.title }} <br />
+          <small class="muted">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</small>
+        </h1>
+      </div>
+
+      <div class="article-body">
+        {{ content }}
+      </div>
+    </article>
+
+    {% include footer.html %}
+  </main>
+</body>
+</html>
