@@ -7,7 +7,7 @@ TARGET_BRANCH="gh-pages"
 GITHUB_REF="github.com/mathewmariani/phoebe.git"
 NAME="Mat Mariani"
 EMAIL="someone.mariani@gmail.com"
-BUILD_DIR="_site"
+BUILD_DIR="_site/phoebe"
 
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
 if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then

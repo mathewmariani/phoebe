@@ -6,7 +6,7 @@
   display: inline-block;
   border: 0.0625em solid;
   border-radius: 0.1875em;
-  padding: 0.6em 1.2em;
+  padding: 0.6em 1em;
 
   margin-top: 5px;
   margin-bottom: 5px;
@@ -18,6 +18,11 @@
 
 .btn-primary {
   @include button-variant($brand-primary, transparent, $brand-primary);
+}
+
+.btn-wide {
+  padding-right: 1.5em;
+  padding-left: 1.5em;
 }
 
 a.btn {

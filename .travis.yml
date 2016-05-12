@@ -3,9 +3,8 @@ rvm:
   - 2.1.1
 sudo: false
 script:
-  - bundle exec jekyll build
-  # can't get htmlproofer to run with {{ site.baseurl }}
-  #- bundle exec htmlproofer ./_site --only-4xx --check-html --allow-hash-href --disable-external
+  - bundle exec jekyll build -d _site/phoebe
+  - bundle exec htmlproofer ./_site --only-4xx --check-html --allow-hash-href --disable-external
 after_success:
   - bash gh-pages.sh
 env:
