@@ -6,8 +6,8 @@ title: Phoebe
 description: A free Jekyll theme
 email: your-email@domain.com
 
-baseurl: ""
-url: http://yourdomain.com
+baseurl: /phoebe
+url: https://mathewmariani.com
 repository: https://github.com/mathewmariani/phoebe
 #google_analytics: analytics-code
 
